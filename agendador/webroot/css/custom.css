@@ -1,0 +1,170 @@
+/* custom.css */
+
+/* Define as novas variáveis de cor */
+:root {
+    --color-task-background: #181818; /* Cinza escuro para o fundo da tela */
+    --color-task-button: #1b37b3; /* Roxo escuro para os botões */
+    --color-task-table: #1d1a25; /* Preto para a tabela principal de tarefas */
+    --color-task-text-light: #f0f0f0; /* Cor de texto mais clara para contraste */
+}
+
+/* Aplica o cinza escuro ao fundo do corpo da página */
+body {
+    background: var(--color-task-background);
+}
+
+/* Estiliza os botões com a cor roxa escura */
+.button,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    background-color: var(--color-task-button);
+    border-color: var(--color-task-button);
+    color: var(
+        --color-white
+    ); /* Garante que o texto do botão seja branco para contraste */
+}
+
+input[type="text"],
+#description,
+#data-agendada,
+#email,
+#password {
+    background-color: lavender;
+    color: #333;
+}
+
+/* Estiliza a tabela principal de tarefas com preto */
+table {
+    background-color: var(--color-task-table);
+    color: var(
+        --color-task-text-light
+    ); /* Cor do texto da tabela para contraste */
+    border-collapse: collapse; /* Para uma aparência mais limpa da tabela */
+    width: 100%; /* Garante que a tabela ocupe a largura total disponível */
+    border-radius: 10px;
+}
+
+table th,
+table td {
+    border: 1px, 1px solid #404041; /* Bordas sutis para as células da tabela */
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #333; /* Um tom um pouco mais claro para o cabeçalho da tabela */
+    color: var(--color-white);
+}
+
+/* Ajustes para o conteúdo principal para combinar com o novo fundo */
+.content {
+    background: var(
+        --color-task-background
+    ); /* Mantém o conteúdo principal no tom de cinza escuro */
+    box-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.3),
+        /* Adapta a sombra para o fundo escuro */ 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    color: var(
+        --color-task-text-light
+    ); /* Cor do texto dentro do bloco de conteúdo */
+}
+
+/* Ajusta a cor dos títulos dentro do bloco de conteúdo para contraste */
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    color: var(--color-task-text-light);
+}
+
+/* Ajusta a cor dos links gerais para melhor visibilidade no fundo escuro */
+a {
+    color: var(
+        --color-cakephp-lightblue
+    ); /* Usa um azul mais claro do CakePHP para links, ou defina um novo */
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: var(
+        --color-white
+    ); /* Links brancos ao passar o mouse para melhor destaque */
+}
+
+/* Ajustes para links dentro de ações (tabelas, etc.) */
+.actions a {
+    color: var(--color-cakephp-lightblue);
+}
+
+.actions a:hover,
+.actions a:focus {
+    color: var(--color-white);
+}
+
+/* Ajustes para a navegação superior e lateral se existirem */
+.top-nav-title a {
+    color: var(
+        --color-cakephp-red
+    ); /* Mantém a cor do CakePHP Red para o título principal */
+}
+
+.top-nav-title span {
+    color: var(--color-task-text-light); /* Garante que o span seja visível */
+}
+
+.top-nav-links a,
+.side-nav a {
+    color: var(--color-task-text-light);
+}
+
+.top-nav-links a:hover,
+.side-nav a:hover {
+    color: var(--color-white);
+}
+
+/* Paginator adjustments for dark theme */
+.pagination a {
+    color: var(--color-cakephp-lightblue);
+}
+
+.pagination li.active a,
+.pagination a:hover {
+    color: var(--color-white);
+    text-decoration: underline;
+}
+
+.pagination .disabled a {
+    color: var(--color-lightgray);
+}
+
+/* Mensagens de flash para garantir visibilidade no fundo escuro */
+.message {
+    background: #444; /* Um fundo escuro para as mensagens */
+    color: var(--color-white); /* Texto branco */
+    border-color: #666; /* Borda mais clara */
+}
+
+.message.success {
+    background: #28a745; /* Verde para sucesso */
+    color: var(--color-white);
+    border-color: #218838;
+}
+.message.warning {
+    background: #ffc107; /* Amarelo para aviso */
+    color: #333; /* Texto escuro */
+    border-color: #e0a800;
+}
+.message.error {
+    background: #dc3545; /* Vermelho para erro */
+    color: var(--color-white);
+    border-color: #c82333;
+}
+.message.info {
+    background: #17a2b8; /* Azul para informação */
+    color: var(--color-white);
+    border-color: #138496;
+}
