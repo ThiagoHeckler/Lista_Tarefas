@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>Editar tarefa</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">edit</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8765/<datalist><option>http://localhost:8765/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Visualizar'])[2]/following::a[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Visualizar'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Não'])[2]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='< Anterior'])[1]/preceding::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Proximo >'])[1]/preceding::a[3]</option><option>xpath=//a[contains(@href, '/tasks/edit/4')]</option><option>xpath=//tr[2]/td[7]/a[2]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data Agendada'])[1]/following::label[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data Agendada'])[1]/following::label[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='levar na parte da tarde, 14:30'])[1]/following::label[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Enviar'])[1]/preceding::label[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/preceding::label[1]</option><option>xpath=//*/text()[normalize-space(.)='Finalizado']/parent::*</option><option>xpath=//div[4]/label</option><option>css=div.input.checkbox > label</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Finalizado'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data Agendada'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/preceding::button[1]</option><option>xpath=//*/text()[normalize-space(.)='Enviar']/parent::*</option><option>xpath=//button</option><option>css=button[type="submit"]</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>

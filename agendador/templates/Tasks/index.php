@@ -4,6 +4,7 @@
  * @var iterable<\App\Model\Entity\Task> $tasks
  */
 ?>
+<?php $this->assign('title', 'lista de tarefas'); ?>
 <div class="tasks index content">
     <?= $this->Html->link(__('Nova Tarefa'), ['action' => 'add'], ['class' => 'button float-right']) ?>
     <h3><?= __('Tarefas') ?></h3>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>teste de cadastro e login</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Cadastro e login</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8765/users/login?redirect=%2F<datalist><option>http://localhost:8765/users/login?redirect=%2F</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=email<datalist><option>id=email</option><option>name=email</option><option>xpath=//input[@id='email']</option><option>xpath=//fieldset/div/input</option><option>css=#email</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Criar uma conta<datalist><option>link=Criar uma conta</option><option>xpath=//a[contains(text(),'Criar uma conta')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Senha'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Criar uma conta']/parent::*</option><option>xpath=//a[contains(@href, '/users/add')]</option><option>xpath=//div/div/a</option><option>css=div.users.form.content > a</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8765/users/add<datalist><option>http://localhost:8765/users/add</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=email<datalist><option>id=email</option><option>name=email</option><option>xpath=//input[@id='email']</option><option>xpath=//fieldset/div/input</option><option>css=#email</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=email<datalist><option>id=email</option><option>name=email</option><option>xpath=//input[@id='email']</option><option>xpath=//fieldset/div/input</option><option>css=#email</option></datalist></td><td>vamostestar@gmail.com</td></tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>name=password</option><option>xpath=//input[@id='password']</option><option>xpath=//div[2]/input</option><option>css=#password</option></datalist></td><td>132456</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Senha'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='E-mail'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/preceding::button[1]</option><option>xpath=//*/text()[normalize-space(.)='Criar conta']/parent::*</option><option>xpath=//button</option><option>css=button[type="submit"]</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8765/users/login<datalist><option>http://localhost:8765/users/login</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=email<datalist><option>id=email</option><option>name=email</option><option>xpath=//input[@id='email']</option><option>xpath=//fieldset/div/input</option><option>css=#email</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=email<datalist><option>id=email</option><option>name=email</option><option>xpath=//input[@id='email']</option><option>xpath=//fieldset/div/input</option><option>css=#email</option></datalist></td><td>vamostestar@gmail.com</td></tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>name=password</option><option>xpath=//input[@id='password']</option><option>xpath=//div[2]/input</option><option>css=#password</option></datalist></td><td>132456</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Senha'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='E-mail'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Criar uma conta'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/preceding::button[1]</option><option>xpath=//button</option><option>css=button[type="submit"]</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8765/<datalist><option>http://localhost:8765/</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>

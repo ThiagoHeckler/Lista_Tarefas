@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>criar tarefa</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Untitled Test Case</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8765/<datalist><option>http://localhost:8765/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Nova Tarefa<datalist><option>link=Nova Tarefa</option><option>xpath=//a[contains(text(),'Nova Tarefa')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='A tarefa foi salva.'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sair'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tarefas'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Código'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Nova Tarefa']/parent::*</option><option>xpath=//a[contains(@href, '/tasks/add')]</option><option>xpath=//div/div[2]/a</option><option>css=a.button.float-right</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adicionar tarefa'])[1]/following::div[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adicionar tarefa'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Lista de tarefas'])[1]/following::div[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Descrição'])[1]/preceding::div[1]</option><option>xpath=//fieldset/div</option><option>css=div.input.text.required</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=title<datalist><option>id=title</option><option>name=title</option><option>xpath=//input[@id='title']</option><option>xpath=//fieldset/div/input</option><option>css=#title</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=title<datalist><option>id=title</option><option>name=title</option><option>xpath=//input[@id='title']</option><option>xpath=//fieldset/div/input</option><option>css=#title</option></datalist></td><td>vacinar o gato contra raiva</td></tr>
+<tr><td>type</td><td>id=description<datalist><option>id=description</option><option>name=description</option><option>xpath=//textarea[@id='description']</option><option>xpath=//textarea</option><option>css=#description</option></datalist></td><td>levar na parte da tarde, 14:30</td></tr>
+<tr><td>click</td><td>id=data-agendada<datalist><option>id=data-agendada</option><option>name=data_agendada</option><option>xpath=//input[@id='data-agendada']</option><option>xpath=//div[3]/input</option><option>css=#data-agendada</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=data-agendada<datalist><option>id=data-agendada</option><option>name=data_agendada</option><option>xpath=//input[@id='data-agendada']</option><option>xpath=//div[3]/input</option><option>css=#data-agendada</option></datalist></td><td>2025-06-26</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Finalizado'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Data Agendada'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/preceding::button[1]</option><option>xpath=//*/text()[normalize-space(.)='Enviar']/parent::*</option><option>xpath=//button</option><option>css=button[type="submit"]</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>
